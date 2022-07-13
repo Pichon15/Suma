@@ -1,6 +1,9 @@
 def suma(a:int,b:int):
     return (a+b)
 
+def resta(a:int,b:int):
+    return (a-b)
+
 def run():
     print('Este programa suma dos numeros')
     a = int(input('Inserta el primer numero: '))
