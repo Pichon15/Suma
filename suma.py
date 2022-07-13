@@ -8,4 +8,7 @@ def run():
     print('el resultado es: {}'.format(suma(a,b)))
 
 if __name__ == '__main__':
-    run()
+    repeat=None
+    while not repeat:
+        run()
+        repeat=input('Si quieres realizar otra suma da enter, si no escribe exit: ')
