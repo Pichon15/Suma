@@ -1,9 +1,15 @@
 def suma(a:int,b:int):
     return (a+b)
 
+
 def resta(a:int,b:int):
     return (a-b)
 
+
+def funcion():
+    print('no hago nada')
+
+    
 def run():
     print('Este programa suma dos numeros')
     a = int(input('Inserta el primer numero: '))
@@ -15,3 +21,5 @@ if __name__ == '__main__':
     while not repeat:
         run()
         repeat=input('Si quieres realizar otra suma da enter, si no escribe exit: ')
+
+        
